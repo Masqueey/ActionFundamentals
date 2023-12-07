@@ -1,6 +1,6 @@
 name: Reusable workflow
 on:
-  workflow_dispatch:
+  workflow_call:
     inputs:
       who-to-greet: 
         description: 'Say hi to this person'
