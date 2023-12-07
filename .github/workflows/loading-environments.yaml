@@ -1,4 +1,4 @@
-name: Load environments before production
+name: Load environments
 on:
     workflow_dispatch:
     inputs:
